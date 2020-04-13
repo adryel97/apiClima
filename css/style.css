@@ -1,0 +1,31 @@
+:root{
+    --gray-2: #4F4F4F;
+    --gray-4: #BDBDBD;
+    --gray-6: #F2F2F2;
+}
+body, html{
+    overflow-x: hidden;
+}
+body{
+    background-color: var(--gray-6);
+}
+.card__clima{
+    border-radius: 4px;
+    background: #ffffff;
+}
+.cod__cidade{
+    color: var(--gray-4);
+}
+.nome__cidade{
+    font-size: 20px;
+    color: var(--gray-2);
+}
+.p__cidade{
+    color: var(--gray-4);
+}
+.text-cinza-claro{
+    color: var(--gray-4);
+}
+.text-cinza{
+    color: var(--gray-2);
+}
